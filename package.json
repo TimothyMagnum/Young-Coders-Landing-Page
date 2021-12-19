@@ -1,0 +1,16 @@
+{
+  "name": "young-coders",
+  "version": "1.0.0",
+  "description": "Landing Page for Young Coders Whatsapp Group",
+  "main": "index.js",
+  "scripts": {
+    "build": "tailwind -i src/styles.css -o public/output.css -w"
+  },
+  "author": "Timothy",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.5",
+    "tailwindcss": "^3.0.7"
+  }
+}
